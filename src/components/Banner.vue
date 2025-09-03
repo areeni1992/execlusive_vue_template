@@ -34,9 +34,12 @@
     <div class="flex flex-1 justify-end">
       <button type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
         <span class="sr-only">Dismiss</span>
+        <XMarkIcon class="size-5 text-white" aria-hidden="true" />
       </button>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { XMarkIcon } from "@heroicons/vue/20/solid";
+</script>
